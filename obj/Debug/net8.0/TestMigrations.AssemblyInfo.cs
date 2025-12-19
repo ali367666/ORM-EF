@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestMigrations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb57af3e2a33a23c2399c4798ebec2cc755a9d1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9d118faff4590977ebbbf7ddde4b9cff3f5ee8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestMigrations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestMigrations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -119,7 +119,127 @@ AppDbContexts _context = new();
 //_context.Entry(t1).State=EntityState.Deleted;
 //_context.Remove(t1);
 //_context.SaveChanges();
-_context.Teachers.Where(x => x.ID > 2)
-    .ExecuteDelete();
+////_context.Teachers.Where(x => x.ID > 2)
+////    .ExecuteDelete();
+//#endregion
+
+//Teachers teachers = new Teachers()
+//{
+
+//    Name="Zeyneb",
+//    Description="Idman",
+//    Mail="sss"
+//};
+//Teachers teachers1 = new Teachers()
+//{
+
+//    Name = "Zeyneb",
+//    Description = "Idman",
+//    Mail = "sss"
+//};
+//Teachers teachers2 = new Teachers()
+//{
+
+//    Name = "Zeyneb",
+//    Description = "Idman",
+//    Mail = "sss"
+//};
+//Teachers teachers3 = new Teachers()
+//{
+
+//    Name = "Zeyneb",
+//    Description = "Idman",
+//    Mail = "sss"
+//};
+
+
+
+
+//_context.Teachers.Where(s => s.ID == 15)
+//    .ExecuteUpdate(s => s
+//     .SetProperty(st => st.Name, st => "Ali"));
+//_context.Teachers.Where(s => s.ID == 15)
+//    .ExecuteDelete();
+//Console.WriteLine(_context.Teachers.Entry().State);
+
+
+//_context.AddRange(teachers,teachers1,teachers2,teachers3);
+//Console.WriteLine(_context.Teachers.Entry(teachers).State);
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(teachers).State);
+//Teachers teachers1 = new Teachers()
+//{
+//    Name = "Fazil",
+//    Description = "Seyfullah",
+//    Mail = "fjdnfjdnd"
+//};
+//_context.Entry(teachers).State = EntityState.Deleted;
+//_context.Remove(teachers); 
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(teachers).State);
+//_context.AddRange(teachers,teachers1);
+//Console.WriteLine(_context.Teachers.Entry(teachers).State);
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(teachers).State);
 
 #endregion
+
+
+///////////////////////////////////Added///////////////////////////
+//Teachers t1 = new()
+//{
+//    Name = "Fazil",
+//    Description = "Firudun",
+//    Mail = "kfmdkmfk"
+//};
+//Teachers t2 = new()
+//{
+//    Name = "Seyid",
+//    Description = "Firudun",
+//    Mail = "kfmdkmfk"
+//};
+
+////_context.Teachers.AddRange(t1,t2);
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+////_context.SaveChanges();
+////Console.WriteLine(_context.Teachers.Entry(t1).State);
+
+//_context.Entry(t1).State = EntityState.Added;
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+
+
+/////////////////////////Modifield/////////////////
+///
+
+//Teachers t1 = new()
+//{
+//    ID=17,
+//    Name = "Seyfullah",
+//    Description = "Firudun",
+//    Mail = "kfmdkmfk"
+//};
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+//_context.Update(t1);
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+
+//_context.Teachers.Where(s => s.ID > 15)
+//    .ExecuteUpdate(s => s
+//    .SetProperty(st => st.Description, st => "Yooxdur"));
+
+//////////////////////Deleted/////////////////
+
+//Teachers?t1=  _context.Teachers.Find(14);
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+//_context.Teachers.Remove(t1);
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+//_context.SaveChanges();
+//Console.WriteLine(_context.Teachers.Entry(t1).State);
+
+_context.Teachers.Where(s => s.ID == 16)
+    .ExecuteDelete();
+
+////////////////////////////////////
